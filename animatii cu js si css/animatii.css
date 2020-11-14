@@ -1,0 +1,28 @@
+﻿body{
+    background: black;
+}
+.container{
+    position:relative;
+    height: 80%;
+    background: steelblue;
+}
+#hamburger {
+    position: absolute;
+    border: 5px black;
+    width: 3%;
+    height: 5%;
+    top: 0.2%;
+    left: 0.2%;
+    z-index: 2;
+}
+#theDiv {
+    position: absolute;
+    background: steelblue;
+    opacity: 0;
+    top: 0.2%;
+    left: 0.2%;
+    z-index: 1;
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(#e66465, #9198e5);
+}

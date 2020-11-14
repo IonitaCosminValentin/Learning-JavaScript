@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="logIn.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>Title</title>
+</head>
+<body>
+    <div class="login-container">
+        <form>
+            <input type="email" name="inputOfEmail" value="email" id="inp" onfocus="delValue()" onfocusout="addValue()" style="color: rgba(0,0,0,0.3)" />
+            <input type="password" id="inp2" name="inputOfPassword" value="email" onclick="delValue2()" onfocusout="addValue2()" style="color: rgba(0,0,0,0.3)" />
+            <button class="btn btn-success" type="submit" onclick="buttonclick()">Send Email</button>
+            <label for="inp2" id="lb1"></label>
+            <label for="inp" id="lb2"></label>
+
+        </form>
+    </div>
+    <script src="logIn.js"></script>
+</body>
+</html>
